@@ -123,8 +123,9 @@ STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_HOST_USER = 'choholife96@gmail.com'
-EMAIL_HOST_PASSWORD = 'level123level'
+EMAIL_HOST = 'smtp.yandex.ru'
 EMAIL_PORT = 587
+EMAIL_HOST_USER = 'n.nurseit@bbg.kz'
+EMAIL_HOST_PASSWORD = 'Choco_nauka96'
+DEFAULT_FROM_EMAIL = 'login@example.com'
 EMAIL_USE_TLS = True
